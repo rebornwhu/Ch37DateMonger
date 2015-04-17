@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F32C1FF21AE0B2AA00626622 /* NSDate+BNRDateConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = F32C1FF11AE0B2AA00626622 /* NSDate+BNRDateConvenience.m */; };
 		F3BD59CD1AE0B22A00FC4249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD59CC1AE0B22A00FC4249 /* Foundation.framework */; };
 		F3BD59D01AE0B22A00FC4249 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BD59CF1AE0B22A00FC4249 /* main.m */; };
 		F3BD59D41AE0B22A00FC4249 /* Ch37DateMonger.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F3BD59D31AE0B22A00FC4249 /* Ch37DateMonger.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F32C1FF01AE0B2AA00626622 /* NSDate+BNRDateConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BNRDateConvenience.h"; sourceTree = "<group>"; };
+		F32C1FF11AE0B2AA00626622 /* NSDate+BNRDateConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BNRDateConvenience.m"; sourceTree = "<group>"; };
 		F3BD59C91AE0B22A00FC4249 /* Ch37DateMonger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ch37DateMonger; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BD59CC1AE0B22A00FC4249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3BD59CF1AE0B22A00FC4249 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				F3BD59CF1AE0B22A00FC4249 /* main.m */,
+				F32C1FF01AE0B2AA00626622 /* NSDate+BNRDateConvenience.h */,
+				F32C1FF11AE0B2AA00626622 /* NSDate+BNRDateConvenience.m */,
 				F3BD59D31AE0B22A00FC4249 /* Ch37DateMonger.1 */,
 				F3BD59D11AE0B22A00FC4249 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3BD59D01AE0B22A00FC4249 /* main.m in Sources */,
+				F32C1FF21AE0B2AA00626622 /* NSDate+BNRDateConvenience.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +258,7 @@
 				F3BD59D91AE0B22A00FC4249 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
